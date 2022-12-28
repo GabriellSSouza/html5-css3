@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore molestias fuga alias voluptate aliquid perferendis ea, fugit perspiciatis totam, voluptatibus culpa est. Et quos cupiditate delectus ipsam incidunt architecto nihil.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+        
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, inventore tempore. Animi, tempora architecto. Et distinctio magnam labore illo quibusdam aliquam laborum iure ipsam, totam non porro provident quis fugit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur maiores dignissimos recusandae perferendis minus repellat esse libero, tenetur enim, repellendus excepturi corrupti nemo, quod est iure. Neque repudiandae enim iste.</p>  
+
+    <iframe id="tela" name="frame" srcdoc="<h1>escolha uma das opções acima</h1><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur maiores tempore totam atque dignissimos voluptatum, eum voluptatem illum porro labore velit blanditiis aliquid, temporibus nemo inventore repellat cum, soluta numquam.</p><img src='imagens/cursoemvideo.png'>" frameborder="0">
+        <p>infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur maiores tempore totam atque dignissimos voluptatum, eum voluptatem illum porro labore velit blanditiis aliquid, temporibus nemo inventore repellat cum, soluta numquam.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem voluptatibus nam dolore a quod, eos dignissimos dolorum consectetur consequatur laborum repellat ab odit voluptate nemo molestias dicta exercitationem quisquam natus.</p>
+</body>
+</html>
